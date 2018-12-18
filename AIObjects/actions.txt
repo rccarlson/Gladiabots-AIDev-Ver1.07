@@ -1,0 +1,16 @@
+idle					idle
+
+--Offense
+attackClosestEnemyToSelf		attack
+
+--Movement
+moveToClosestAllyToSelfUnderAttack	movement,ally,assist,allyUnderAttack
+moveToClosestEnemyBotToSelf		movement,enemy
+moveToClosestEnemyAttackedByAlly	movement,enemy,enemyUnderAttack
+fleeFromAllAttackingEnemy		movement,enemy,underAttack
+
+--Resource
+collectClosestResourceToSelf		movement,resource,resourceCollect
+scoreResourceToClosestBaseToSelf	movement,resource,scoreResource
+dropResource				resource,scoreResource
+

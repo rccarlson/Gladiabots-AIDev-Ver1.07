@@ -1,0 +1,16 @@
+isEnemyAtShortRangeOfSelf	0,1
+isEnemyAtMidRangeOfSelf		0,1
+isEnemyAtLongRangeOfSelf	0,1
+isEnemyOutOfRangeOfSelf		0,1
+isCarryingResource			0,1
+isSelfUnderAttack			0,1
+selfShield1to25percent		0,1
+selfShield26to50percent		0,1
+selfShield51to75percent		0,1
+selfShield76to99percent		0,1
+selfShieldFull				0,1
+selfHealth1to25percent		0,1
+selfHealth26to50percent		0,1
+selfHealth51to75percent		0,1
+selfHealth76to99percent		0,1
+selfHealthFull				0,1
