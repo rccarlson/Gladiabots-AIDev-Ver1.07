@@ -1,1 +1,11 @@
 # Gladiabots-AIDev-Ver1.07
+This project emulates the environment of the mobile and PC game "Gladiabots" and tries to create a program to play the game.<br>
+Gladiabots is a game in which each team must score points by scoring resources into bases, while fighting off the other team. Players do not directly control the bots on the board, but can create programs for the bots to follow. Teams win by either eliminating all enemies or by scoring a majority of the resources on the board to their bases.<br><br>
+This program works by emulating the environment and executing a program stored as a text file. Programs are stored in a folder "bots" in the executing directory. Upon execution, Driver creates a list of Match objects, and feeds them programs to execute. Each Match creates a board, fills it with resources, bases, and bots, then runs through the match until the Match is finished. Matches are terminated either by fulfillment of a win condition or by an override command from the Driver. Each Match executes on a separate Thread, allowing multiple Matches to be simultaneously executed.<br>
+As the Matches are running, Driver cycles through them, checking for either a win condition or for overtime to be reached. Should overtime be reached, the Driver manually terminates the Match and increments the "draw" counter. Should too many draws occur, the comparison between programs is aborted, and it is assumed the two programs are equals.<br>
+Once the two programs have been sufficiently compared (which is defined by parameters editable in Driver.java), a victor is declared. Should the higher numbered program be victorious, it is swapped with the losing program. This results in long term behavior of better programs being numbered closer to "00".<br>
+In this version, programs are generated completely randomly. Failing programs are simply discarded and replaced by new randomly generated programs.<br><br>
+Needed improvements:<br>
+-Needs Shotgun, Sniper, and Machine Gun classes <br>
+-bases and resources are generated randomly. This does not reflect the true generation pattern of Gladiabots bases or resouces<br>
+-Program generation is truly random and the project does not learn from past mistakes
