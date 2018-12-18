@@ -1,0 +1,3 @@
+if(isEnemyAtShortRangeOfSelf==1){
+	collectClosestResourceToSelf;
+}

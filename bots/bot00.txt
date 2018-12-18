@@ -1,0 +1,6 @@
+if(isEnemyAtShortRangeOfSelf==1||isEnemyAtMidRangeOfSelf==1){
+	attackClosestEnemyToSelf;
+}
+moveToClosestEnemyBotToSelf;
+collectClosestResourceToSelf;
+scoreResourceToClosestBaseToSelf;

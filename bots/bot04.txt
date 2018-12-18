@@ -1,0 +1,7 @@
+moveToClosestAllyToSelfUnderAttack;
+collectClosestResourceToSelf;
+scoreResourceToClosestBaseToSelf;
+attackClosestEnemyToSelf;
+if(isEnemyAtLongRangeOfSelf==0&&isEnemyAtLongRangeOfSelf==0||isEnemyAtLongRangeOfSelf==1&&isEnemyAtLongRangeOfSelf==1){
+	attackClosestEnemyToSelf;
+}

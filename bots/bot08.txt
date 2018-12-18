@@ -1,0 +1,52 @@
+scoreResourceToClosestBaseToSelf;
+if(isEnemyOutOfRangeOfSelf==1||isEnemyOutOfRangeOfSelf==1||isEnemyOutOfRangeOfSelf==1||isEnemyOutOfRangeOfSelf==0){
+	if(isEnemyOutOfRangeOfSelf==0){
+		collectClosestResourceToSelf;
+		moveToClosestAllyToSelfUnderAttack;
+		if(isEnemyOutOfRangeOfSelf==1){
+			if(isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==1&&isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==1){
+				attackClosestEnemyToSelf;
+			}
+			scoreResourceToClosestBaseToSelf;
+		}
+		scoreResourceToClosestBaseToSelf;
+		attackClosestEnemyToSelf;
+	}
+	if(isEnemyAtShortRangeOfSelf==1&&isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==1){
+		collectClosestResourceToSelf;
+		moveToClosestAllyToSelfUnderAttack;
+		if(isEnemyAtShortRangeOfSelf==0&&isEnemyAtShortRangeOfSelf==1&&isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==0){
+			moveToClosestAllyToSelfUnderAttack;
+			attackClosestEnemyToSelf;
+		}
+		if(isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==0){
+			scoreResourceToClosestBaseToSelf;
+			moveToClosestAllyToSelfUnderAttack;
+		}
+		collectClosestResourceToSelf;
+		if(isEnemyOutOfRangeOfSelf==1&&isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==0){
+			moveToClosestEnemyBotToSelf;
+		}
+		moveToClosestEnemyBotToSelf;
+		if(isEnemyAtMidRangeOfSelf==0||isEnemyAtMidRangeOfSelf==0){
+			if(isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==1&&isEnemyAtShortRangeOfSelf==1){
+				if(isEnemyAtMidRangeOfSelf==1&&isEnemyAtMidRangeOfSelf==1){
+					attackClosestEnemyToSelf;
+					if(isEnemyAtLongRangeOfSelf==1||isEnemyAtLongRangeOfSelf==0||isEnemyAtLongRangeOfSelf==1&&isEnemyAtLongRangeOfSelf==0){
+						moveToClosestEnemyBotToSelf;
+					}
+				}
+				moveToClosestAllyToSelfUnderAttack;
+				if(isEnemyAtMidRangeOfSelf==0){
+					attackClosestEnemyToSelf;
+				}
+			}
+		}
+		if(isEnemyAtLongRangeOfSelf==1||isEnemyAtLongRangeOfSelf==0){
+			moveToClosestAllyToSelfUnderAttack;
+		}
+		collectClosestResourceToSelf;
+	}
+	collectClosestResourceToSelf;
+}
+moveToClosestAllyToSelfUnderAttack;

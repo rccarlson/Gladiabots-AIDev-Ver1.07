@@ -1,0 +1,7 @@
+if(isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==1){
+	if(isEnemyAtMidRangeOfSelf==1||isEnemyAtMidRangeOfSelf==1){
+		if(isEnemyAtLongRangeOfSelf==0){
+			scoreResourceToClosestBaseToSelf;
+		}
+	}
+}

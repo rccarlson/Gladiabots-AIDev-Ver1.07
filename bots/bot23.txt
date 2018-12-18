@@ -1,0 +1,17 @@
+if(isEnemyAtLongRangeOfSelf==0){
+	if(isEnemyAtShortRangeOfSelf==1){
+		if(isEnemyAtShortRangeOfSelf==1){
+			attackClosestEnemyToSelf;
+		}
+		moveToClosestEnemyBotToSelf;
+	}
+	if(isEnemyAtMidRangeOfSelf==0&&isEnemyAtMidRangeOfSelf==0&&isEnemyAtMidRangeOfSelf==0){
+		collectClosestResourceToSelf;
+	}
+	if(isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==1){
+		if(isEnemyAtMidRangeOfSelf==1){
+			moveToClosestAllyToSelfUnderAttack;
+			collectClosestResourceToSelf;
+		}
+	}
+}

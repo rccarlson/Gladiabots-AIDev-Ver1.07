@@ -1,0 +1,3 @@
+fleeFromAllAttackingEnemy;
+moveToClosestAllyToSelfUnderAttack;
+moveToClosestEnemyBotToSelf;

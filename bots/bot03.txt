@@ -1,0 +1,23 @@
+if(isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==1){
+	collectClosestResourceToSelf;
+	if(isEnemyAtShortRangeOfSelf==0||isEnemyAtShortRangeOfSelf==1){
+		if(isEnemyAtLongRangeOfSelf==0){
+			scoreResourceToClosestBaseToSelf;
+		}
+		if(isEnemyAtLongRangeOfSelf==1){
+			attackClosestEnemyToSelf;
+			moveToClosestEnemyBotToSelf;
+			collectClosestResourceToSelf;
+		}
+		if(isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==1){
+			if(isEnemyAtMidRangeOfSelf==1){
+				if(isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==1||isEnemyOutOfRangeOfSelf==1){
+					moveToClosestEnemyBotToSelf;
+				}
+			}
+			if(isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==1||isEnemyOutOfRangeOfSelf==1){
+				moveToClosestEnemyBotToSelf;
+			}
+		}
+	}
+}

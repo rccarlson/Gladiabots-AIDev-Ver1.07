@@ -1,0 +1,4 @@
+collectClosestResourceToSelf;
+moveToClosestAllyToSelfUnderAttack;
+scoreResourceToClosestBaseToSelf;
+attackClosestEnemyToSelf;

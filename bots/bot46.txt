@@ -1,0 +1,9 @@
+if(isEnemyAtMidRangeOfSelf==1||isEnemyAtMidRangeOfSelf==0){
+	if(isEnemyAtLongRangeOfSelf==1){
+		if(isEnemyAtMidRangeOfSelf==1){
+			moveToClosestEnemyBotToSelf;
+			attackClosestEnemyToSelf;
+		}
+	}
+	moveToClosestEnemyBotToSelf;
+}

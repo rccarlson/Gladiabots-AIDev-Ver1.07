@@ -1,0 +1,9 @@
+scoreResourceToClosestBaseToSelf;
+if(isEnemyOutOfRangeOfSelf==1){
+	collectClosestResourceToSelf;
+	collectClosestResourceToSelf;
+	attackClosestEnemyToSelf;
+}
+if(isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==0){
+	attackClosestEnemyToSelf;
+}

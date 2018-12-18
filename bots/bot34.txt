@@ -1,0 +1,34 @@
+moveToClosestEnemyBotToSelf;
+if(isEnemyOutOfRangeOfSelf==0||isEnemyOutOfRangeOfSelf==0){
+	attackClosestEnemyToSelf;
+	if(isEnemyAtLongRangeOfSelf==1){
+		if(isEnemyAtMidRangeOfSelf==1&&isEnemyAtMidRangeOfSelf==0||isEnemyAtMidRangeOfSelf==0&&isEnemyAtMidRangeOfSelf==1){
+			moveToClosestAllyToSelfUnderAttack;
+			moveToClosestEnemyBotToSelf;
+			moveToClosestEnemyBotToSelf;
+			if(isEnemyAtLongRangeOfSelf==0||isEnemyAtLongRangeOfSelf==1||isEnemyAtLongRangeOfSelf==0||isEnemyAtLongRangeOfSelf==1){
+				scoreResourceToClosestBaseToSelf;
+				collectClosestResourceToSelf;
+				attackClosestEnemyToSelf;
+			}
+			if(isEnemyOutOfRangeOfSelf==1&&isEnemyOutOfRangeOfSelf==0){
+				if(isEnemyAtShortRangeOfSelf==1&&isEnemyAtShortRangeOfSelf==1){
+					if(isEnemyAtMidRangeOfSelf==1&&isEnemyAtMidRangeOfSelf==1&&isEnemyAtMidRangeOfSelf==1){
+						if(isEnemyOutOfRangeOfSelf==0){
+							moveToClosestAllyToSelfUnderAttack;
+							moveToClosestEnemyBotToSelf;
+						}
+					}
+				}
+				if(isEnemyAtMidRangeOfSelf==0){
+					if(isEnemyAtShortRangeOfSelf==0){
+						collectClosestResourceToSelf;
+					}
+					collectClosestResourceToSelf;
+					scoreResourceToClosestBaseToSelf;
+					scoreResourceToClosestBaseToSelf;
+				}
+			}
+		}
+	}
+}

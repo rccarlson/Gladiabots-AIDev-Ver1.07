@@ -1,0 +1,3 @@
+if(isEnemyAtMidRangeOfSelf==0&&isEnemyAtMidRangeOfSelf==1){
+	moveToClosestAllyToSelfUnderAttack;
+}

@@ -1,0 +1,11 @@
+if(isEnemyAtShortRangeOfSelf==0||isEnemyAtShortRangeOfSelf==0){
+	collectClosestResourceToSelf;
+	if(isEnemyOutOfRangeOfSelf==0&&isEnemyOutOfRangeOfSelf==0){
+		if(isEnemyAtShortRangeOfSelf==1||isEnemyAtShortRangeOfSelf==0){
+			collectClosestResourceToSelf;
+		}
+		if(isEnemyAtMidRangeOfSelf==0||isEnemyAtMidRangeOfSelf==1||isEnemyAtMidRangeOfSelf==1){
+			collectClosestResourceToSelf;
+		}
+	}
+}
